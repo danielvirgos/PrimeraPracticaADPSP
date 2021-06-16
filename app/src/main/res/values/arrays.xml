@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Reply Preference -->
+    <string-array name="reply_entries">
+        <item>Reply</item>
+        <item>Reply to all</item>
+    </string-array>
+
+    <string-array name="reply_values">
+        <item>reply</item>
+        <item>reply_all</item>
+    </string-array>
+
+    <string-array name="opcion">
+        <item>External</item>
+        <item>Interno</item>
+    </string-array>
+    <string-array name="opcionvalue">
+        <item>extcsv</item>
+        <item>intcsv</item>
+    </string-array>
+</resources>

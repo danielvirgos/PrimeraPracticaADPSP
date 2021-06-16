@@ -1,0 +1,15 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory app:title="@string/sync_datos">
+    <ListPreference
+        android:key="tipofichero"
+        android:title="Tipo de fichero"
+        android:summary="Selecciona la memoria que leeras"
+        android:entries="@array/opcion"
+        android:entryValues="@array/opcionvalue"
+        android:defaultValue="intcsv"/>
+    </PreferenceCategory>
+
+
+</PreferenceScreen>
